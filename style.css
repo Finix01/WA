@@ -1,0 +1,57 @@
+html{
+    font-family: 'open sans', sans-serif;
+    font-size: 18px;
+}
+
+body{
+    margin: 0;
+}
+
+#{
+    box-sizing: border-box;
+}
+
+nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+nav a#brand-link{
+    font-weight: 600;
+}
+
+article, aside{
+    position: fixed;
+    background: bisque;
+    border: solid 1px white;
+    width: 50vw;
+    min-height: 400px;
+}
+
+article{
+    left: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+article button{
+    width: 150px;
+}
+
+aside{
+    background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fapod.nasa.gov%2Fapod%2Fap191030.html&psig=AOvVaw0BlQcTIC2pQE_sTvqIFBpC&ust=1599484770946000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPD_-5_P1OsCFQAAAAAdAAAAABAD');
+    background-size: contain;
+    right: 0;
+    background-position: center;
+}
